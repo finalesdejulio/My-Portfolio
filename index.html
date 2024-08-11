@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>My Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>My Portfolio</h1>
+						<p>You can view the personal projects I have worked on and my CV here!</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">My Portfolio</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Personal Projects</a></li>
+							<li><a href="CV.html">CV</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://github.com/finalesdejulio" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="#">Personal Projects</a></h2>
+									<p>Xử lí dữ liệu, phân tích dữ liệu, tạo biểu đồ, dashboard bằng PowerBI, Excel, Stata, Python</p>
+								</header>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2><a href="#">Factors affecting<br />
+										inflation</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/CPI.jpg" alt="" /></a>
+									<p>Xử lí dữ liệu, xây dựng mô hình, phân tích dữ liệu về một số chỉ số kinh tế vĩ mô bằng Excel và Stata.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/finalesdejulio/Factors-affecting-inflation-in-some-countries" target="_blank" class="button">Full Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Adventure Work<br />
+										2020</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/AdventureWork2020.png" alt="" /></a>
+									<p>Xử lí dữ liệu, tạo relatinship, xây dựng biếu đổ, dashboard trên bộ dữ liệu kinh doanh của Adventure Work trong các năm 2018, 2019 và 2020 bằng PowerBI.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/finalesdejulio/AdventureWork2020" target="_blank" class="button">Full Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Coffee Order</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/Coffee Order.jpeg" alt="" /></a>
+									<p>Xử lí dữ liệu, tạo biểu đồ, dashboard trên bộ dữ liệu doanh thu bán cà phê bằng Excel.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/finalesdejulio/CoffeeOrder" target="_blank" class="button">Full project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Analize Financial Data</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/stock.jpg" alt="" /></a>
+									<p>Sử dụng các thư viện để lấy giá cổ phiếu và vẽ biểu đồ bằng Python.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/finalesdejulio/Analize-financial-data" target="_blank" class="button">Full project</a></li>
+									</ul>
+								</article>
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>Số 16, phố Bắc cầu Quán Gánh<br />
+								Duyên Thái, Thường Tín, Hà Nội</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p id="phoneNumber" class="phone-number">0978042546</p>
+								<script>
+									document.getElementById('phoneNumber').addEventListener('click', function() {
+										// Create a temporary input element
+										var tempInput = document.createElement('input');
+										tempInput.value = this.textContent; // Set the input value to the phone number
+										document.body.appendChild(tempInput); // Append it to the body
+										tempInput.select(); // Select the text in the input
+										document.execCommand('copy'); // Copy the text to clipboard
+										document.body.removeChild(tempInput); // Remove the temporary input
+										alert('Phone number copied to clipboard: ' + tempInput.value); // Optional: Alert the user
+									});
+								</script>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p id="Email" class="email">ngquocanh307@gmail.com</p>
+								<script>
+									document.getElementById('Email').addEventListener('click', function() {
+										// Create a temporary input element
+										var tempInput = document.createElement('input');
+										tempInput.value = this.textContent; // Set the input value to the email
+										document.body.appendChild(tempInput); // Append it to the body
+										tempInput.select(); // Select the text in the input
+										document.execCommand('copy'); // Copy the text to clipboard
+										document.body.removeChild(tempInput); // Remove the temporary input
+										alert('Email copied to clipboard: ' + tempInput.value); // Optional: Alert the user
+									});
+								</script>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.facebook.com/ngquocanh307" target="_blank" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="https://github.com/finalesdejulio" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
